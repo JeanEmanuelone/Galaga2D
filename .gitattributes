@@ -1,0 +1,8 @@
+# Trata todos os arquivos de texto automaticamente
+* text=auto
+
+# Força final de linha LF nos arquivos do Unity
+*.meta text eol=lf
+*.asset text eol=lf
+*.prefab text eol=lf
+*.unity text eol=lf
