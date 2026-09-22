@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 66900293d3e3b534ab215236739c53d6
+guid: 794b0e0f59de73e4ea0cda23288eb7c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 490510915988468278
-    second: BordaBotao_0
+      213: -3190925892428988793
+    second: BordaMeioBotao_0
   - first:
-      213: 8365592030002770656
-    second: BordaBotao_1
+      213: 4323597491094361731
+    second: BordaMeioBotao_1
   - first:
-      213: -4496203902869840582
-    second: BordaBotao_2
+      213: -6739647891741927322
+    second: BordaMeioBotao_2
   - first:
-      213: 8765003914225460611
-    second: BordaBotao_3
+      213: 4145593224764986849
+    second: BordaMeioBotao_3
   - first:
-      213: 7898580623542960911
-    second: BordaBotao_4
-  - first:
-      213: -8157508446478563721
-    second: BordaBotao_5
+      213: 5489815878768359348
+    second: BordaMeioBotao_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BordaBotao_0
+      name: BordaMeioBotao_0
       rect:
         serializedVersion: 2
         x: 37
-        y: 49
-        width: 2081
-        height: 641
+        y: 91
+        width: 1034
+        height: 599
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 632b1f94415aec600800000000000000
-      internalID: 490510915988468278
+      spriteID: 78e7c2d9ecd87b3d0800000000000000
+      internalID: -3190925892428988793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BordaBotao_1
+      name: BordaMeioBotao_1
       rect:
         serializedVersion: 2
         x: 651
@@ -165,58 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e27724e0ad881470800000000000000
-      internalID: 8365592030002770656
+      spriteID: 3861370c201800c30800000000000000
+      internalID: 4323597491094361731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BordaBotao_2
-      rect:
-        serializedVersion: 2
-        x: 1276
-        y: 642
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3dd7bb4f564a91c0800000000000000
-      internalID: -4496203902869840582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BordaBotao_3
-      rect:
-        serializedVersion: 2
-        x: 1085
-        y: 634
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 385215afe9c83a970800000000000000
-      internalID: 8765003914225460611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BordaBotao_4
+      name: BordaMeioBotao_2
       rect:
         serializedVersion: 2
         x: 675
@@ -231,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f03cf088a356d9d60800000000000000
-      internalID: 7898580623542960911
+      spriteID: 668138d53f5f772a0800000000000000
+      internalID: -6739647891741927322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BordaBotao_5
+      name: BordaMeioBotao_3
       rect:
         serializedVersion: 2
         x: 679
@@ -253,8 +206,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 776856bc945bace80800000000000000
-      internalID: -8157508446478563721
+      spriteID: 1e51269d21b188930800000000000000
+      internalID: 4145593224764986849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BordaMeioBotao_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 87
+        width: 89
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b77948947ebf2c40800000000000000
+      internalID: 5489815878768359348
       vertices: []
       indices: 
       edges: []
@@ -273,12 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BordaBotao_0: 490510915988468278
-      BordaBotao_1: 8365592030002770656
-      BordaBotao_2: -4496203902869840582
-      BordaBotao_3: 8765003914225460611
-      BordaBotao_4: 7898580623542960911
-      BordaBotao_5: -8157508446478563721
+      BordaMeioBotao_0: -3190925892428988793
+      BordaMeioBotao_1: 4323597491094361731
+      BordaMeioBotao_2: -6739647891741927322
+      BordaMeioBotao_3: 4145593224764986849
+      BordaMeioBotao_4: 5489815878768359348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
