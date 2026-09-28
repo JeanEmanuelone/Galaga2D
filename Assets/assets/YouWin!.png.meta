@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: a25f677e7947a7144877d886e9d19bd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2877986190272020294
+    second: YouWin!_0
+  - first:
+      213: -3564397429315208352
+    second: YouWin!_1
+  - first:
+      213: 1090131372152702180
+    second: YouWin!_2
+  - first:
+      213: -4116211001602225448
+    second: YouWin!_3
+  - first:
+      213: 2038994872392169599
+    second: YouWin!_4
+  - first:
+      213: 5979140824504462660
+    second: YouWin!_5
+  - first:
+      213: 7627305762216536735
+    second: YouWin!_6
+  - first:
+      213: 9078696186754784890
+    second: YouWin!_7
+  - first:
+      213: -7683198015095577721
+    second: YouWin!_8
+  - first:
+      213: -1164507034678555470
+    second: YouWin!_9
+  - first:
+      213: -4904296697304245245
+    second: YouWin!_10
+  - first:
+      213: -4270208175682139055
+    second: YouWin!_11
+  - first:
+      213: -6159661863487618952
+    second: YouWin!_12
+  - first:
+      213: -6898303131097760091
+    second: YouWin!_13
+  - first:
+      213: -3496446451817920982
+    second: YouWin!_14
+  - first:
+      213: 2847851970574883572
+    second: YouWin!_15
+  - first:
+      213: -1891708167853607478
+    second: YouWin!_16
+  - first:
+      213: -4094737334745293726
+    second: YouWin!_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YouWin!_0
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 650
+        width: 109
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab04b54eec65f08d0800000000000000
+      internalID: -2877986190272020294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_1
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 667
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bf95b4c67b88ec0800000000000000
+      internalID: -3564397429315208352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_2
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 668
+        width: 199
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4cbab05bce02f00800000000000000
+      internalID: 1090131372152702180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_3
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 0
+        width: 1067
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dac1f417e740e6c0800000000000000
+      internalID: -4116211001602225448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_4
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 696
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7837cb8807fb4c10800000000000000
+      internalID: 2038994872392169599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_5
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 710
+        width: 48
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44def9aa6ec2af250800000000000000
+      internalID: 5979140824504462660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 1033
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ae436fd22a9d960800000000000000
+      internalID: 7627305762216536735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 596
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e5633b4120efd70800000000000000
+      internalID: 9078696186754784890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_8
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 602
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783ed33dc1ccf5590800000000000000
+      internalID: -7683198015095577721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_9
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 101
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc8a839507d6dfe0800000000000000
+      internalID: -1164507034678555470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_10
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c1f0c432070fbb0800000000000000
+      internalID: -4904296697304245245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_11
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 77
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c4f7be94c2db4c0800000000000000
+      internalID: -4270208175682139055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_12
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 79
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870cc42ab2c748aa0800000000000000
+      internalID: -6159661863487618952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_13
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 88
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aef3fdd9dd4440a0800000000000000
+      internalID: -6898303131097760091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_14
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 63
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26c73f1a702a7fc0800000000000000
+      internalID: -3496446451817920982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 32
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa1307574a958720800000000000000
+      internalID: 2847851970574883572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_16
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 23
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5716ca17d4fb5e0800000000000000
+      internalID: -1891708167853607478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin!_17
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 45
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c1af1c6129c27c0800000000000000
+      internalID: -4094737334745293726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      YouWin!_0: -2877986190272020294
+      YouWin!_1: -3564397429315208352
+      YouWin!_10: -4904296697304245245
+      YouWin!_11: -4270208175682139055
+      YouWin!_12: -6159661863487618952
+      YouWin!_13: -6898303131097760091
+      YouWin!_14: -3496446451817920982
+      YouWin!_15: 2847851970574883572
+      YouWin!_16: -1891708167853607478
+      YouWin!_17: -4094737334745293726
+      YouWin!_2: 1090131372152702180
+      YouWin!_3: -4116211001602225448
+      YouWin!_4: 2038994872392169599
+      YouWin!_5: 5979140824504462660
+      YouWin!_6: 7627305762216536735
+      YouWin!_7: 9078696186754784890
+      YouWin!_8: -7683198015095577721
+      YouWin!_9: -1164507034678555470
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
