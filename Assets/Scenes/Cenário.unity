@@ -171,6 +171,17 @@ MonoBehaviour:
   maxY: 5
   minSize: 0.03
   maxSize: 0.05
+  brilhoMinimo: 0.25
+  brilhoMaximo: 1
+  velocidadeMinima: 1
+  velocidadeMaxima: 3
+  chanceDeBrilho: 0.7
+  intensidadeBrilho: 1.8
+  tamanhoBrilho: 1.7
+  velocidadeBrilho: 7
+  velocidadeMinimaMovimento: 0.3
+  velocidadeMaximaMovimento: 0.8
+  multiplicadorVelocidade: 1
 --- !u!1 &226256611
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +222,7 @@ MonoBehaviour:
   tamanhoPequeno: 0.06
   minDistance: 2
   sortingOrder: 10
+  velocidadeRotacao: 20
 --- !u!4 &226256613
 Transform:
   m_ObjectHideFlags: 0
@@ -327,9 +339,22 @@ MonoBehaviour:
   starPrefab: {fileID: 747668081547772057, guid: 45c1000d873b7a74aa7fc5bf99c8092d, type: 3}
   starCount: 60
   minX: -8
-  maxX: 8
-  minY: -5
+  maxX: 50
+  minY: -50
   maxY: 5
+  minSize: 0.04
+  maxSize: 0.07
+  brilhoMinimo: 0.25
+  brilhoMaximo: 1
+  velocidadeMinima: 1
+  velocidadeMaxima: 3
+  chanceDeBrilho: 0.7
+  intensidadeBrilho: 1.8
+  tamanhoBrilho: 1.7
+  velocidadeBrilho: 7
+  velocidadeMinimaMovimento: 0.3
+  velocidadeMaximaMovimento: 0.8
+  multiplicadorVelocidade: 1
 --- !u!1 &357098343
 GameObject:
   m_ObjectHideFlags: 0
