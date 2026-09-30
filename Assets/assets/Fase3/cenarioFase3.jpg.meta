@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1ab8399843cbe7b42b8e32bc57530697
+guid: 64fd67259f6de594bbf3a3c4a634e264
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6302563758487680414
-    second: nave_0
+      213: -8762007824974172771
+    second: cenarioFase3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nave_0
+      name: cenarioFase3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1283
-        height: 1193
+        width: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26a471177abc888a0800000000000000
-      internalID: -6302563758487680414
+      spriteID: d9da8396e48176680800000000000000
+      internalID: -8762007824974172771
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nave_0: -6302563758487680414
+      cenarioFase3_0: -8762007824974172771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
