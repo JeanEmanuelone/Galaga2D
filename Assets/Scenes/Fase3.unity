@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 964522944}
   - component: {fileID: 964522947}
   m_Layer: 5
-  m_Name: BotaoMenu
+  m_Name: Emgrenagem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,6 +705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978843719}
   - component: {fileID: 978843718}
+  - component: {fileID: 978843720}
   m_Layer: 0
   m_Name: NavePequenaInferior
   m_TagString: Untagged
@@ -787,6 +788,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -1.986, y: 0.053, z: 178.482}
+--- !u!114 &978843720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978843717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1defca956273e43a65d2745bef7ee0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InimigoFase3
+  velocidade: 2
+  limiteX: 0
+  limiteXDireita: 6
+  limiteY: 4
+  limiteYBaixo: -4
+  vida: 1
+  tiroPrefab: {fileID: 0}
+  intervaloDeTiro: 2
+  velocidadeDoTiro: 8
+  explosaoPrefab: {fileID: 0}
 --- !u!1 &1290328411
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,7 +959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "pontua\xE7\xE3o"
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1162,6 +1185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1799162106}
   - component: {fileID: 1799162105}
+  - component: {fileID: 1799162107}
   m_Layer: 0
   m_Name: NavePequenaSuperior
   m_TagString: Untagged
@@ -1244,6 +1268,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -1.986, y: 0.053, z: 178.482}
+--- !u!114 &1799162107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799162104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1defca956273e43a65d2745bef7ee0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InimigoFase3
+  velocidade: 2
+  limiteX: 0
+  limiteXDireita: 6
+  limiteY: 4
+  limiteYBaixo: -4
+  vida: 1
+  tiroPrefab: {fileID: 0}
+  intervaloDeTiro: 2
+  velocidadeDoTiro: 8
+  explosaoPrefab: {fileID: 0}
 --- !u!1 &1836600236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,8 +1300,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1836600238}
   - component: {fileID: 1836600237}
+  - component: {fileID: 1836600239}
   m_Layer: 0
-  m_Name: NaveInimigaFasa3
+  m_Name: NaveInimigaFase3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1336,6 +1383,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 179.394}
+--- !u!114 &1836600239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836600236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d84d014a7ad4a4f85a94d2821eaa68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossFase3
+  vida: 5
+  explosaoPrefab: {fileID: 0}
 --- !u!1 &1908408337
 GameObject:
   m_ObjectHideFlags: 0
