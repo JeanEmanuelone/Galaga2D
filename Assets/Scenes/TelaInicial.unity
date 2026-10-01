@@ -241,6 +241,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d90e8cf1608f62c4b8d323494de4b1fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuInicial
+  nomePrimeiraFase: Fase1
+  nomeMenuInicial: MenuInicial
+  painelPause: {fileID: 0}
 --- !u!1 &171878019
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,9 +823,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Configuracoes, Assembly-CSharp
-        m_MethodName: Voltar
+      - m_Target: {fileID: 1402504010}
+        m_TargetAssemblyTypeName: GerenciadorDeMenus, Assembly-CSharp
+        m_MethodName: IrParaMenuInicial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -879,10 +882,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 840766532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35d758d8e65204b4ca205a5506cab6d2, type: 3}
+  m_Script: {fileID: 11500000, guid: d90e8cf1608f62c4b8d323494de4b1fa, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Configuracoes
-  audioMixer: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::GerenciadorDeMenus
+  nomePrimeiraFase: Fase1
+  nomeMenuInicial: MenuInicial
+  painelPause: {fileID: 0}
 --- !u!1 &862132930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1240,8 +1245,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 98574663}
-        m_TargetAssemblyTypeName: MenuInicial, Assembly-CSharp
+      - m_Target: {fileID: 1402504010}
+        m_TargetAssemblyTypeName: GerenciadorDeMenus, Assembly-CSharp
         m_MethodName: Jogar
         m_Mode: 1
         m_Arguments:
@@ -1452,9 +1457,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MenuInicial, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1402504010}
+        m_TargetAssemblyTypeName: GerenciadorDeMenus, Assembly-CSharp
+        m_MethodName: Sair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1502,6 +1507,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233550231}
   m_CullTransparentMesh: 1
+--- !u!1 &1402504009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1402504011}
+  - component: {fileID: 1402504010}
+  m_Layer: 0
+  m_Name: GerenciadorDeMenus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1402504010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402504009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90e8cf1608f62c4b8d323494de4b1fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GerenciadorDeMenus
+  nomePrimeiraFase: Fase1
+  nomeMenuInicial: menuTelaInicial
+  painelPause: {fileID: 0}
+--- !u!4 &1402504011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402504009}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.20822, y: 3.36337, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590098223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,3 +1850,4 @@ SceneRoots:
   - {fileID: 98574662}
   - {fileID: 1032294160}
   - {fileID: 723816109}
+  - {fileID: 1402504011}
