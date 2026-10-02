@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 6d1f3095443b6594c9ef14b0dad09d07
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fonteMusica: {instanceID: 0}
+  - fonteSFX: {instanceID: 0}
+  - musicaTelaInicial: {instanceID: 0}
+  - musicaFaseNormal: {fileID: 8300000, guid: 714f160ebf77664449e2cacb95eb4a0d, type: 3}
+  - musicaBoss: {fileID: 8300000, guid: aab3be4e8ba1a86478cd6c9870951ad7, type: 3}
+  - musicaGameOver: {fileID: 8300000, guid: 767b3ce896a299b4c9f035890553665b, type: 3}
+  - musicaVitoria: {instanceID: 0}
+  - somCliqueBotao: {fileID: 8300000, guid: f38369c908c214f4e9f24ea9d681c666, type: 3}
+  - somTiroJogador: {fileID: 8300000, guid: 71f9e99378606944ea6b04a579b94265, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
